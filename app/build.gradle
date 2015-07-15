@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 8
+    buildToolsVersion "23.0.0 rc2"
+
+    defaultConfig {
+        applicationId "org.xiangbalao.pinyin"
+        minSdkVersion 8
+        targetSdkVersion 14
+
+        testApplicationId "org.xiangbalao.pinyin"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/pinyin4j-2.5.0.jar')
+}

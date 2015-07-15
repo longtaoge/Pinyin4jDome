@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="J:\domes\Pinyin4jDome\app\libs\pinyin4j-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="J:\domes\Pinyin4jDome\app\build\intermediates\pre-dexed\debug\pinyin4j-2.5.0-8fef1f43ecd6f85be0bb3380435aa08c6fbbe86b.jar" />
+    </item>
+
+</items>
